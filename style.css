@@ -24,10 +24,10 @@ body{
     display:flex;
     align-items:center;
     justify-content:space-between;
-    gap:4.8rem;
-    height:9.6rem;
-    padding:0 9.6rem;
-    background-color: #fdf2e9;
+    gap:3.2rem;
+    height:9rem;
+    padding:0 9.2rem;
+   
     
 }
 .logo{
@@ -47,6 +47,26 @@ body{
          transform: translate(0);
     }
 }
+.main-nav-list{
+    list-style:none;
+    display:flex;
+    align-items:center;
+    gap:3.2rem;
+}
+.main-nav-text:link,
+.main-nav-text:visited{
+    display:inline-block;
+    text-decoration:none;
+    font-size:1.8rem;
+    font-weight:700;
+    color:#555;
+    transition: all o.3s;
+}
+.main-nav-text:hover,
+.main-nav-text:active{
+    color:#000;
+}
+
 
 
 
