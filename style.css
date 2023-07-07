@@ -1,1 +1,65 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html{
+    font-size:10px;
+    /*10/16rem=0.625
+    0.625*10=6.25*/
+    overflow-x: hidden;
+}
+body{
+    font-family:sans-serif;
+    line-height:1;
+    font-weight:400;
+    color:#555;
+}
+
+/**************/
+/*header*/
+/***********/
+.header{
+    position: relative;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:4.8rem;
+    height:9.6rem;
+    padding:0 9.6rem;
+    background-color: #fdf2e9;
+    
+}
+.logo{
+    height:2.4rem;
+   animation: moveInLeft 1s ease-out;
+}
+@keyframes moveInLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+    80%{
+        transform: translateX(1rem);
+    }
+    100%{
+        opacity:1;
+         transform: translate(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
